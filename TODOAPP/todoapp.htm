@@ -4,28 +4,32 @@
         TO dO App
     </title>
     <head>
-      <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="todo.css">
     </head>
     <body>
         <h1> TODO App </h1>
      
+    <div id="desc">  
         <h5>DESCRIPTION</h5>
-        <p placeholder="What do you need to do?"> </p>
-         
+        <input  type="text" placeholder="What do you need to do?">
+    </div>   
+
+    <div>
         <h5>CATEGORY</h5>
 
         <select>
-            <option value="Choose a category" selected></option>
-            <option value="personal"></option> 
-             <option value="work"></option>
-             <option value="college"></option>
-             <option value="other"></option>
+            <option value="Choose a category" selected>Choose a category</option>
+            <option value="personal">personal</option> 
+             <option value="work">work</option>
+             <option value="college">college</option>
+             <option value="other">other</option>
         </select>
 
         <h5>DUE DATE</h5>
 
         <input type="date">
-
+        
+    </div>
         <a class="btn"> ADD TASK </a>
         <a class="btn"> DELETE TASKS</a>
 
@@ -38,7 +42,7 @@
          <input type="checkbox">
          <label for="tsk">Annual report submission deadline</label>
            
-         
+
 
 
     </body>
