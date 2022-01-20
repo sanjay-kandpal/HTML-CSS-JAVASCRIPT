@@ -1,3 +1,71 @@
-body{
+
+
+h1{
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
+h5{
+    color: lightgray;
+    font-size: 20px;
+}
+
+#description:hover{
+   background-color: #eee;
+    
+}
+
+#description input{
+   
+   border: none;
+}
+
+#description input:hover{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: inherit;
+}
+
+input:focus{
+
+    outline: none;
+    
+}
+.flex-container{
+    display: flex;
+}
+#category{
+     border: 1px solid #eee;
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+}
+
+#category select{
+    background-color: inherit;
+    font-size: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    border: none;
+}
+
+#category:hover{
+    background-color: #eee;
+}
+
+#category select:focus{
+    outline: none;
+}
+
+#date{
+    border: 1px solid #eee;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#date:hover{
+ background-color: #eee;
+}
+
+/*yet to customize calendar icon*/
