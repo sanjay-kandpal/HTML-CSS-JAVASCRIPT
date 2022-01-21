@@ -59,6 +59,7 @@ input:focus{
 
 #date{
     border: 1px solid #eee;
+    
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -66,6 +67,57 @@ input:focus{
 
 #date:hover{
  background-color: #eee;
+ -webkit-appearance: inherit;
 }
 
 /*yet to customize calendar icon*/
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+     display: none;   
+    -webkit-appearance: none;
+    ;
+}
+
+input [type="date"]:hover{
+    border: none;
+    background-color: #eee;
+}
+
+/* Calender date not fixed*/
+
+/* BUTTON ADD TASK, DELETE TASKS */
+
+.flex-container {
+    padding-top: 2px;
+    padding-bottom: 80px;
+}
+
+.btn{
+    color: white;
+    margin-left: 120px;
+    border: 1px solid black;
+    padding: 20px;
+   
+    
+}
+
+#btn1 .btn{
+    
+    background-color: black;
+    
+}
+
+#btn2 .btn{
+    
+    background-color: red;
+}
+ 
+  /* TASKS CSS */
+
+.tasks div{
+    border: 1px solid #eee;
+    padding: 20px;
+}
+
+

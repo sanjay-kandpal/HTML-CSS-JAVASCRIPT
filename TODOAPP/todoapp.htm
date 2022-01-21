@@ -4,51 +4,77 @@
         TO dO App
     </title>
     <head>
+        <link 
+        href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+        rel="stylesheet"  type='text/css'>
     <link rel="stylesheet" href="todo.css">
     </head>
     <body>
         <h1> TODO App </h1>
-     <br>
+     
     <div id="description">  
-        <h5>DESCRIPTION </h5>
-        <input  type="text" placeholder="What do you need to do?">
+         <h5>DESCRIPTION </h5>
+          <input  type="text" placeholder="What do you need to do?">
         
     </div>   
-  <br>
+  
   <div class="flex-container">
     <div id="category">
+      
         <h5>CATEGORY</h5>
 
-        <select>
-             <option value="Choose a category" selected>Choose a category</option>
-             <option value="personal">personal</option> 
-             <option value="work">work</option>
-             <option value="college">college</option>
-             <option value="other">other</option>
-        </select>
+          <select>
+      
+               <option value="Choose a category" selected>Choose a category</option>
+               <option value="personal">personal</option> 
+               <option value="work">work</option>
+               <option value="college">college</option>
+               <option value="other">other</option>
+      
+          </select>
+    
     </div>
 
     <div id="date">  
+
         <h5>DUE DATE</h5>
-     <select>
-        <input type="date">
-    </select>
+     
+        <input type="date" placeholder="dd-mm-yyyy">
+    
     </div>
 
 </div> 
 
-        <a class="btn"> ADD TASK </a>
-        <a class="btn"> DELETE TASKS</a>
+    <div class="flex-container">
 
+       <div id="btn1">
+         <a class="btn"><i class="fa fa-plus"></i>&nbsp;&nbsp;&nbsp;ADD TASK</a>
+        </div>
+
+       <div id="btn2">    
+          <a class="btn"><i class="fa fa-trash"></i> DELETE TASKS</a>
+       </div>
+
+    </div>
+
+    <div class="tasks">
+        
+       <div> 
         <input type="checkbox">
          <label for="tsk">Why not add a task?</label>
-        
+        </div>
+
+        <div >
          <input type="checkbox">
          <label for="tsk">Let's make a TODO App</label>
-          
+        </div>
+        
+        <div>
          <input type="checkbox">
          <label for="tsk">Annual report submission deadline</label>
-           
+        </div>
+
+    </div>       
 
 
 
