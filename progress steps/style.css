@@ -1,0 +1,48 @@
+html,body{
+    height: 100%;
+}
+body{
+    margin: 0;
+}
+
+.container{
+ 
+ position: absolute;
+ top: 30%; 
+ left: 40%;
+ display: flex;
+ flex-direction: row;
+    
+ justify-content: space-between; 
+     
+}
+
+.inner-container{
+    
+    
+     
+    
+    
+}
+
+.circle{
+  
+    border: 1px solid #eee;
+    
+    padding: 12px;
+    margin: 0px 20px 18px 20px; 
+    border-radius: 48%;
+    
+
+}
+
+
+.start{
+    border: 1px solid blueviolet;
+    
+}
+
+
+
+
+

@@ -1,31 +1,30 @@
-const image = document.getElementById("img");
+
 
 document.addEventListener("keydown",(e) =>{
+  
+  console.log("key code is: ",e.key);
 
-const cs = getComputedStyle(image);
 
-const left = cs.left;
-  const top = cs.top;
-  const leftNumber = left.match(regex);
-  const topNumber = top.match(regex);
-
-  // LEFT key pressed
-  if (e.key === 37) {
-    image.style.left = `${parseFloat(leftNumber[0]) - change}px`;
-  }
+ 
   // TOP key pressed
-  if (e.key === 38) {
-    image.style.top = `${parseFloat(topNumber[0]) - change}px`;
+  if (e.key = 38) {
+    dino = document.getElementsByClassName('dino');
+    dino.classList.add('animateDino');
+    
+    setTimeout(()=> {
+      dino.classList.remove("animateDino")
+    },700)
+    
   }
   // RIGHT key pressed
-  if (e.key === 39) {
-    image.style.left = `${parseFloat(leftNumber[0]) + change}px`;
+ /* if (e.key === 39) {
+   
   }
   // DOWN key pressed
   if (e.key === 40) {
-    image.style.top = `${parseFloat(topNumber[0]) + change}px`;
+   
   }
-
+*/
 
 
 });
